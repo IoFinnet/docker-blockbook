@@ -2,7 +2,7 @@
     "coin_name": "iochain",
     "coin_shortcut": "IO",
     "coin_label": "iochain",
-    "rpc_url": "wss://ws-dcn-dev.iodevnet.com",
+    "rpc_url": "ws://besu-node-rpc-0:8546",
     "rpc_user": "",
     "rpc_pass": "",
     "rpc_timeout": 25,
