@@ -12,7 +12,7 @@ COPY . .
 
 RUN apt-get update -y && apt-get install -y logrotate libc6 libsnappy1v5 libzmq5
 
-RUN dpkg -i backend-ethereum-testnet-goerli_1.10.26-e5eb32ac-satoshilabs-1_amd64.deb
+RUN dpkg -i backend-ethereum-testnet-goerli_1.11.4-7e3b149b-satoshilabs-1_amd64.deb
 
 RUN dpkg -i blockbook-ethereum-testnet-goerli_0.4.0_amd64.deb
 
