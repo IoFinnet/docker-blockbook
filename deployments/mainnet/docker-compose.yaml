@@ -4,7 +4,7 @@ services:
   geth:
     container_name: geth
     restart: unless-stopped
-    image: ethereum/client-go:v1.10.25
+    image: ethereum/client-go:v1.11.4
     logging:
       options:
         max-file: "5"
@@ -46,7 +46,7 @@ services:
 
   prysm:
     container_name: beacon-chain
-    image: gcr.io/prysmaticlabs/prysm/beacon-chain:v3.1.1
+    image: gcr.io/prysmaticlabs/prysm/beacon-chain@sha256:5370aa77072aa05808c99f9076e06278fb90975ee61e6ed78ebdec47a739fd43
     restart: always
     hostname: beacon-chain
     depends_on:
