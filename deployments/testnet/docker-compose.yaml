@@ -52,7 +52,7 @@ services:
     command: >
       --datadir="/home/prysm"
       --accept-terms-of-use=true
-      --http-web3provider="http://geth:8551"
+      --execution-endpoint="http://geth:8551"="http://geth:8551"
       --rpc-host="0.0.0.0"
       --p2p-host-ip=""
       --p2p-host-dns=""
