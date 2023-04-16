@@ -44,7 +44,7 @@ services:
         ipv4_address: 10.2.0.101
   prysm:
     container_name: beacon-chain
-    image: gcr.io/prysmaticlabs/prysm/beacon-chain@sha256:5370aa77072aa05808c99f9076e06278fb90975ee61e6ed78ebdec47a739fd43
+    image: gcr.io/prysmaticlabs/prysm/beacon-chain:v4.0.2
     restart: always
     hostname: beacon-chain
     depends_on:
