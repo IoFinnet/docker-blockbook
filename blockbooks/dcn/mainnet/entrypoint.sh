@@ -11,5 +11,5 @@ cd /opt/coins/blockbook/iochain/
     -blockheight=0 \
     -workers=2 \
     -debug=true \
-    -datadir=/opt/iofinnet/testnet/bb_dcn \
+    -datadir=/opt/iofinnet/mainnet/bb_dcn \
     -logtostderr
