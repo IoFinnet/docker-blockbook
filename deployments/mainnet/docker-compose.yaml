@@ -207,7 +207,7 @@ services:
       - 9030:9030
       - 9130:9130
     volumes:
-      - ${DIR}/testnet/bb_dcn:/opt/coins/blockbook/iochain/data
+      - ${DIR}/mainnet/bb_dcn:/opt/coins/blockbook/iochain/data
     networks:
       infura:
         ipv4_address: 10.2.0.114
